@@ -62,9 +62,7 @@ mac_homebrew_packages:
 # Mac Apps to be installed with homebrew-cask
 mac_cask_packages:
   # Password manager
-  - 1password
-  # Backup/storage
-  - dropbox
+  - macpass
   # Browsers
   - firefox
   - google-chrome
@@ -73,15 +71,8 @@ mac_cask_packages:
   - iterm2-nightly  # nightly has faster rendering
   - keepingyouawake  # maintained caffeinate wrapper
   - flux
-  - appcleaner
-  - daisydisk
   # Docker
   - docker
-  # chat
-  - slack
-  - keybase
-  # Video conferencing
-  - zoomus
   # Media/Music
   - spotify
   - iina
@@ -96,8 +87,6 @@ mac_cask_packages:
   - font-hack
   # Databases
   - tableplus  # RDBMS client
-  # VPN
-  - tunnelblick
   # Docs
   - dash
   # Bibliography
@@ -110,8 +99,6 @@ mac_cask_packages:
   - now
   # REST client
   - insomnia
-  # Markdown-based presentations
-  - deckset
 
 # Mac-App-Store-only apps to be installed with mas
 # Use App IDs found with `mas search <name>`
@@ -120,10 +107,6 @@ mac_mas_packages:
   - {"id": 585829637, "name": "Todoist"}
   - {"id": 540348655, "name": "Monosnap"}
   - {"id": 409203825, "name": "Numbers"}
-
-ruby_global_gems:
-  - lunchy
-  - travis
 
 # Python versions to install with pyenv and set as global
 # Especially useful when using tox
